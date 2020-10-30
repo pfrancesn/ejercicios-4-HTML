@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="ejercicio13.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio13-3</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Campamento de verano 2021</h1>
+    </header>
+    <main>
+        <form action="ejercicio13-4.html" target="_self">
+            <fieldset>
+                <legend>
+                    <h2>Configuración del campamento</h2>
+                </legend>
+                <table>
+                    <tr>
+                        <th><label for="tipo-de-campamento" style="font-size: large; float: left;">
+                                <h3>Tipo de campamento: </h3>
+                            </label></th><br>
+                        <th><label for="horario" style="font-size: large; float: left;">
+                                <h3>Horario: </h3>
+                            </label></th><br>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="tipo-de-campamento" value="montana" id="montana">
+                            <label for="montana">Campamento de montaña</label><br>
+                        </td>
+                        <td>
+                            <input type="radio" name="horario" value="manana" id="manana">
+                            <label for="manana">Mañana</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="tipo-de-campamento" value="urbano" id="urbano">
+                            <label for="urbano">Campamento urbano</label><br>
+                        </td>
+                        <td>
+                            <input type="radio" name="horario" value="tarde" id="tarde">
+                            <label for="tarde">Tarde</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="radio" name="horario" value="pernocta" id="pernocta">
+                            <label for="pernocta">Pernocta</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Continuar" class="button"
+                                style="margin-top: 5px;"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
