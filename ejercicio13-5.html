@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="ejercicio13.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio13-2</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Campamento de verano 2021</h1>
+    </header>
+    <main>
+        <form action="ejercicio13.html" target="_self">
+            <fieldset>
+                <legend>
+                    <h2>Información del pago</h2>
+                </legend>
+                <table>
+                    <tr>
+                        <td><label for="tarjeta">Tipo de tarjeta </label></td>
+                        <td><label for="n-tarjeta">Nº Tarjeta </label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="tarjeta" id="tarjeta" class="text-data">
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="american-express">American Express</option>
+                            </select>
+                        </td>
+                        <td><input type="number" id="n-tarjeta" class="text-data"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Fecha caducidad </label></td>
+                        <td><label for="cvc">CVC </label></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="date" class="text-data"></td>
+                        <td><input type="password" id="cvc" class="text-data"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Finalizar pago" class="button"
+                                style="margin-top: 5px;"></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
